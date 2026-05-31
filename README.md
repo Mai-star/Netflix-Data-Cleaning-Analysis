@@ -18,17 +18,18 @@ To ensure data integrity, I performed the following steps:
 -  Rating Analysis: Explored the distribution of content ratings (e.g., TV-MA, TV-14) to understand the target audience.
 -  Release Trends: Visualized how Netflix has expanded its content production over the years.
 #  Plots:
--  ![Bar Graph](images/Netflix-data-analysis/Bar-Graph.png)
--  ![Bar Graph](images/Netflix-data-analysis/Bar-Graph2.png)
--  ![Barh Graph](images/Netflix-data-analysis/Barh-Graph.png)
--  ![Barh Graph](images/Netflix-data-analysis/Barh-Graph2.png)
--  ![Histogram](images/Netflix-data-analysis/Histogram.png)
--  ![Pie Chart](images/Netflix-data-analysis/Pie-Chart.png)
 
-# How to Use:
--  Clone this repository.
--  Install dependencies: pip install pandas matplotlib seaborn.
--  Run the Jupyter Notebook: Netflix_Analysis.ipynb
+![Bar Graph](Netflix-data-analysis/Bar-Graph.png)
+
+![Bar Graph](Netflix-data-analysis/Bar-Graph2.png)
+
+![Barh Graph](Netflix-data-analysis/Barh-Graph.png)
+
+![Barh Graph](Netflix-data-analysis/Barh-Graph2.png)
+
+![Histogram](Netflix-data-analysis/Histogram.png)
+
+![Pie Chart](Netflix-data-analysis/Pie-Chart.png)
 
 # Original Notebook on Kaggle:
 -> /kaggle/input/datasets/ahmedosman220/netflix-shows/Netflix_data.csv
