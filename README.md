@@ -77,12 +77,5 @@ We also identified the most prolific contributors to the Netflix catalog.
 
 ---
 
-## 🛠️ Tech Stack
-*   **Language:** Python (Pandas, NumPy)
-*   **Visualization:** Matplotlib, Seaborn
-*   **Environment:** Jupyter Notebook
-
----
-
 ## 💡 Conclusion
 The analysis demonstrates Netflix's strategic shift towards **Movies** and its heavy reliance on **U.S. and Indian markets**. The data cleaning process ensured that missing values (especially in Director and Cast columns) were handled rigorously to provide an accurate representation of the platform's library.
