@@ -1,12 +1,12 @@
 # 🎬 Netflix Data Cleaning & Analysis
 
 ## 📊 Project Overview
-This project focuses on the comprehensive cleaning and exploratory data analysis (EDA) of the **Netflix Movies and TV Shows** dataset. By transforming raw, messy data into structured insights, this analysis uncovers significant trends in content strategy, global production hubs, and audience preferences.
+This project involves comprehensive data cleaning and exploratory data analysis (EDA) of the **Netflix Movies and TV Shows** dataset. The analysis aims to uncover significant trends in content strategy, global production, and audience preferences by transforming raw data into structured insights.
 
 ---
 
 ## 📂 Dataset Source
-The analysis is based on the **Netflix Movies and TV Shows Dataset** from **Kaggle**:
+This analysis utilizes the **Netflix Movies and TV Shows Dataset** from **Kaggle**:
 🔗 [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 ---
@@ -14,68 +14,57 @@ The analysis is based on the **Netflix Movies and TV Shows Dataset** from **Kagg
 ## 🔍 Key Insights & Visualizations
 
 ### 1. Content Strategy: Movies vs. TV Shows
-Netflix's library is heavily weighted towards cinematic content. Our analysis of **5,397** records reveals a clear preference for full-length features.
-
-*   **Insight:** Approximately **69.6%** of total titles are **Movies**, while **30.4%** are **TV Shows**.
-*   **Visualization:** The following charts illustrate this dominant trend in content acquisition.
+Netflix's library shows a clear preference for cinematic content. Our analysis of **5,397** records reveals that approximately **69.6%** of total titles are **Movies**, while **30.4%** are **TV Shows**.
 
 | Type Distribution (Count) | Percentage Breakdown |
 | :---: | :---: |
-| ![Bar Chart](Netflix-data-analysis/Bar-Graph.png) | ![Pie Chart](Netflix-data-analysis/Pie-Chart.png) |
-| *Movies lead by a significant margin in total volume.* | *Visualizing the 7:3 ratio between Movies and Shows.* |
+| ![Content Type Distribution](Netflix-data-analysis/Bar-Graph.png) | ![Content Type Percentage](Netflix-data-analysis/Pie-Chart.png) |
+| *توزيع أنواع المحتوى (أفلام مقابل مسلسلات).* | *النسبة المئوية للأفلام والمسلسلات في مكتبة Netflix.* |
 
 ---
 
 ### 2. Global Production Hubs
-Netflix content is a global phenomenon, but production remains concentrated in a few key markets.
+While Netflix content is global, production is concentrated in key markets.
 
 *   **Key Findings:**
-    1.  **United States:** The undisputed leader with over **2,000+** titles.
-    2.  **India:** A massive contributor, reflecting Netflix's investment in regional cinema.
-    3.  **United Kingdom:** The third-largest producer, providing high-quality international content.
-*   **Visualization:** This ranking highlights the geographic diversity of the platform.
+    1.  **United States:** Leads with over **2,000+** titles.
+    2.  **India:** A major contributor, reflecting investment in regional cinema.
+    3.  **United Kingdom:** The third-largest producer of international content.
 
-![Top Producing Countries](Netflix-data-analysis/Bar-Graph2.png)
-*Caption: The U.S. and India dominate the platform's production landscape.*
+![Top Producing Countries](Netflix-data-analysis/Bar-Graph.png)
+*Caption: الدول الأكثر إنتاجًا للمحتوى على Netflix (الولايات المتحدة، الهند، المملكة المتحدة).* 
 
 ---
 
 ### 3. Content Evolution & Growth Trends
-The platform experienced an exponential surge in content additions over the last decade, particularly during the late 2010s.
-
-*   **Trend Analysis:** A massive spike in additions started in **2016**, reaching its peak between **2019 and 2020**.
-*   **Release Cycle:** Most titles added recently were produced between **2017 and 2021**, showing Netflix's focus on fresh, contemporary content.
+The platform experienced significant growth in content additions, particularly from **2016** to **2020**.
 
 | Addition Trends Over Time | Release Year Distribution |
 | :---: | :---: |
-| ![Growth Trend](Netflix-data-analysis/Barh-Graph2.png) | ![Release Years](Netflix-data-analysis/Histogram.png) |
-| *The rapid expansion of the Netflix library since 2016.* | *Focusing on the 2017-2021 contemporary release window.* |
+| ![Content Addition Trend](Netflix-data-analysis/Barh-Graph2.png) | ![Release Year Distribution](Netflix-data-analysis/Histogram.png) |
+| *تطور إضافة المحتوى إلى Netflix بمرور الوقت.* | *توزيع سنوات إصدار المحتوى.* |
 
 ---
 
 ### 4. Audience Targeting & Ratings
-Understanding the target demographic is crucial. The rating distribution shows a lean towards mature audiences.
+The rating distribution indicates a focus on mature audiences.
 
-*   **Observation:** **TV-MA** (Mature Audiences) is the most frequent rating, followed by **TV-14**, indicating a content strategy aimed at adults and older teens.
-*   **Visualization:** Distribution of content across different age-appropriateness categories.
+*   **Observation:** **TV-MA** (Mature Audiences) and **TV-14** are the most frequent ratings.
 
-![Rating Distribution](Netflix-data-analysis/Bar-Graph3.png)
-*Caption: TV-MA and TV-14 represent the largest segments of the Netflix library.*
+![Rating Distribution](Netflix-data-analysis/Bar-Graph2.png)
+*Caption: توزيع التقييمات العمرية للمحتوى على Netflix (TV-MA و TV-14 هما الأكثر شيوعًا).* 
 
 ---
 
 ### 5. Talent & Creative Leadership
-We also identified the most prolific contributors to the Netflix catalog.
-
-*   **Most Prolific Actors:** The analysis tracks actors with the highest frequency of appearances (e.g., Bollywood stars like **Anupam Kher** and **Shah Rukh Khan**).
-*   **Top Directors:** Identifying the visionaries behind the most titles.
+Identifying the most prolific contributors to the Netflix catalog.
 
 | Top 10 Actors | Top 10 Directors |
 | :---: | :---: |
-| ![Top Actors](Netflix-data-analysis/Barh-Graph.png) | ![Top Directors](Netflix-data-analysis/Bar-Graph4.png) |
-| *Highlighting the most frequent faces on the platform.* | *The directors responsible for the largest volume of content.* |
+| ![Top Actors](Netflix-data-analysis/Barh-Graph2.png) | ![Top Directors](Netflix-data-analysis/Barh-Graph.png) |
+| *أكثر 10 ممثلين ظهورًا في محتوى Netflix.* | *أكثر 10 مخرجين إنتاجًا للمحتوى على Netflix.* |
 
 ---
 
 ## 💡 Conclusion
-The analysis demonstrates Netflix's strategic shift towards **Movies** and its heavy reliance on **U.S. and Indian markets**. The data cleaning process ensured that missing values (especially in Director and Cast columns) were handled rigorously to provide an accurate representation of the platform's library.
+This analysis highlights Netflix's strategic focus on **Movies** and its reliance on **U.S. and Indian markets**. The data cleaning process ensured accurate representation of the platform's library, providing valuable insights into content trends and audience engagement.
