@@ -1,77 +1,71 @@
-# 🎬 تنظيف وتحليل بيانات Netflix
+# 🎬 Netflix Data Cleaning & Analysis
 
-## 📊 نظرة عامة على المشروع
-يتضمن هذا المشروع تنظيفًا شاملاً للبيانات وتحليلاً استكشافيًا (EDA) لمجموعة بيانات **أفلام وعروض Netflix التلفزيونية**. يهدف التحليل إلى الكشف عن الاتجاهات الهامة في استراتيجية المحتوى، والإنتاج العالمي، وتفضيلات الجمهور عن طريق تحويل البيانات الخام إلى رؤى منظمة.
-
----
-
-## 📂 مصدر البيانات
-يستخدم هذا التحليل **مجموعة بيانات أفلام وعروض Netflix التلفزيونية** من **Kaggle**:
-🔗 [مجموعة بيانات Netflix على Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+## 📊 Project Overview
+This project involves comprehensive data cleaning and exploratory data analysis (EDA) of the **Netflix Movies and TV Shows** dataset. The analysis aims to uncover significant trends in content strategy, global production, and audience preferences by transforming raw data into structured insights.
 
 ---
 
-## 🔍 رؤى رئيسية وتصورات
+## 📂 Dataset Source
+This analysis utilizes the **Netflix Movies and TV Shows Dataset** from **Kaggle**:
+🔗 [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
-### 1. استراتيجية المحتوى: الأفلام مقابل البرامج التلفزيونية
-تظهر مكتبة Netflix تفضيلاً واضحًا للمحتوى السينمائي. يكشف تحليلنا لـ **5,397** سجلًا أن ما يقرب من **69.6%** من إجمالي العناوين هي **أفلام**، بينما **30.4%** هي **برامج تلفزيونية**.
+---
 
-| توزيع الأنواع (العدد) | توزيع النسبة المئوية |
+## 🔍 Key Insights & Visualizations
+
+### 1. Content Strategy: Movies vs. TV Shows
+Netflix's library shows a clear preference for cinematic content. Our analysis of **5,397** records reveals that approximately **69.6%** of total titles are **Movies**, while **30.4%** are **TV Shows**.
+
+| Type Distribution (Count) | Percentage Breakdown |
 | :---: | :---: |
-| ![توزيع المحتوى حسب النوع (أفلام مقابل مسلسلات)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph.png) | ![النسبة المئوية للأفلام والمسلسلات في مكتبة Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Pie-Chart.png) |
-| *التقنيات المستخدمة: Matplotlib* | *التقنيات المستخدمة: Matplotlib* |
+| ![Content Type Distribution (Movies vs. TV Shows)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph.png) | ![Percentage of Movies and TV Shows in Netflix Library](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Pie-Chart.png) |
+| *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
 
-### 2. مراكز الإنتاج العالمية
-بينما محتوى Netflix عالمي، يتركز الإنتاج في أسواق رئيسية.
+### 2. Global Production Hubs
+While Netflix content is global, production is concentrated in key markets.
 
-*   **النتائج الرئيسية:**
-    1.  **الولايات المتحدة:** تتصدر بأكثر من **2,000+** عنوان.
-    2.  **الهند:** مساهم رئيسي، مما يعكس الاستثمار في السينما الإقليمية.
-    3.  **المملكة المتحدة:** ثالث أكبر منتج للمحتوى الدولي.
+*   **Key Findings:**
+    1.  **United States:** Leads with over **2,000+** titles.
+    2.  **India:** A major contributor, reflecting investment in regional cinema.
+    3.  **United Kingdom:** The third-largest producer of international content.
 
-![الدول الأكثر إنتاجًا للمحتوى على Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph.png)
-*التقنيات المستخدمة: Matplotlib*
+![Top Producing Countries on Netflix (USA, India, UK)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph.png)
+*Technologies Used: Matplotlib*
 
 ---
 
-### 3. تطور المحتوى واتجاهات النمو
-شهدت المنصة نموًا كبيرًا في إضافات المحتوى، خاصة من **2016** إلى **2020**.
+### 3. Content Evolution & Growth Trends
+The platform experienced significant growth in content additions, particularly from **2016** to **2020**.
 
-| اتجاهات الإضافة بمرور الوقت | توزيع سنة الإصدار |
+| Addition Trends Over Time | Release Year Distribution |
 | :---: | :---: |
-| ![توزيع مدة البرامج التلفزيونية](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Histogram.png) | ![توزيع سنوات إصدار المحتوى](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Histogram.png) |
-| *التقنيات المستخدمة: Matplotlib* | *التقنيات المستخدمة: Matplotlib* |
+| ![Distribution of TV Show Duration](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Histogram.png) | ![Distribution of Content Release Years](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Histogram.png) |
+| *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
 
-### 4. استهداف الجمهور والتقييمات
-يشير توزيع التقييمات إلى التركيز على الجماهير الناضجة.
+### 4. Audience Targeting & Ratings
+The rating distribution indicates a focus on mature audiences.
 
-*   **الملاحظة:** **TV-MA** (للجماهير الناضجة) و **TV-14** هما التقييمات الأكثر شيوعًا.
+*   **Observation:** **TV-MA** (Mature Audiences) and **TV-14** are the most frequent ratings.
 
-![توزيع التقييمات العمرية للمحتوى على Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph2.png)
-*التقنيات المستخدمة: Matplotlib*
+![Age Rating Distribution of Content on Netflix (TV-MA and TV-14 are most common)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph2.png)
+*Technologies Used: Matplotlib*
 
 ---
 
-### 5. المواهب والقيادة الإبداعية
-تحديد المساهمين الأكثر إنتاجًا في كتالوج Netflix.
+### 5. Talent & Creative Leadership
+Identifying the most prolific contributors to the Netflix catalog.
 
-| أفضل 10 ممثلين | أفضل 10 مخرجين |
+| Top 10 Actors | Top 10 Directors |
 | :---: | :---: |
-| ![أكثر 10 ممثلين ظهورًا في محتوى Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Barh-Graph2.png) | ![أكثر 10 مخرجين إنتاجًا للمحتوى على Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Barh-Graph.png) |
-| *التقنيات المستخدمة: Matplotlib* | *التقنيات المستخدمة: Matplotlib* |
+| ![Top 10 Most Appearing Actors in Netflix Content](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Barh-Graph2.png) | ![Top 10 Most Prolific Directors on Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Barh-Graph.png) |
+| *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
 
-## 🛠️ التقنيات المستخدمة
-*   **اللغة:** Python (Pandas, NumPy)
-*   **البيئة:** Jupyter Notebook
-*   **التصور:** Matplotlib
 
----
-
-## 💡 الخلاصة
-يسلط هذا التحليل الضوء على تركيز Netflix الاستراتيجي على **الأفلام** واعتمادها على **الأسواق الأمريكية والهندية**. ضمنت عملية تنظيف البيانات تمثيلاً دقيقًا لمكتبة المنصة، مما يوفر رؤى قيمة حول اتجاهات المحتوى ومشاركة الجمهور.
+## 💡 Conclusion
+This analysis highlights Netflix's strategic focus on **Movies** and its reliance on **U.S. and Indian markets**. The data cleaning process ensured accurate representation of the platform's library, providing valuable insights into content trends and audience engagement.
