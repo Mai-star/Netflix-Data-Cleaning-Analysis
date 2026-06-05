@@ -36,6 +36,8 @@ While Netflix content is global, production is concentrated in key markets.
 ### 3. Content Evolution & Growth Trends
 The platform experienced significant growth in content additions, particularly from **2016** to **2020**.
 
+![Content Evaluation](Netflix-data-analysis/Histogram.png)
+
 ---
 
 ### 4. Audience Targeting & Ratings
