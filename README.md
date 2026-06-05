@@ -14,12 +14,9 @@ This analysis utilizes the **Netflix Movies and TV Shows Dataset** from **Kaggle
 ## 🔍 Key Insights & Visualizations
 
 ### 1. Content Strategy: Movies vs. TV Shows
-Netflix's library shows a clear preference for cinematic content. Our analysis of **5,397** records reveals that approximately **69.6%** of total titles are **Movies**, while **30.4%** are **TV Shows**.
-
-| Type Distribution (Count) | Percentage Breakdown |
-| :---: | :---: |
-| ![Content Type Distribution (Movies vs. TV Shows)](Netflix-data-analysis/Bar-Graph2.png) | ![Percentage of Movies and TV Shows in Netflix Library](Netflix-data-analysis/Barh-Graph.png) |
-| *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
+Netflix's library shows a clear preference for cinematic content. Our analysis of **5,397** records reveals that approximately **64.2%** of total titles are **Movies**, while **35.8%** are **TV Shows**.
+ 
+![Content Type Distribution (Movies vs. TV Shows)](Netflix-data-analysis/Pie-Chart.png) |.             *Technologies Used: Matplotlib* 
 
 ---
 
@@ -31,18 +28,13 @@ While Netflix content is global, production is concentrated in key markets.
     2.  **India:** A major contributor, reflecting investment in regional cinema.
     3.  **United Kingdom:** The third-largest producer of international content.
 
-![Top Producing Countries on Netflix (USA, India, UK)](Netflix-data-analysis/Barh-Graph2.png)
+![Top Producing Countries on Netflix (USA, India, UK)](Netflix-data-analysis/Bar-Graph.png)
 *Technologies Used: Matplotlib*
 
 ---
 
 ### 3. Content Evolution & Growth Trends
 The platform experienced significant growth in content additions, particularly from **2016** to **2020**.
-
-| Addition Trends Over Time | Release Year Distribution |
-| :---: | :---: |
-| ![Distribution of TV Show Duration](Netflix-data-analysis/Histogram.png) | ![Distribution of Content Release Years](Netflix-data-analysis/Pie-Chart.png) |
-| *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
 
