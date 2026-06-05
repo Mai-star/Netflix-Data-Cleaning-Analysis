@@ -18,7 +18,7 @@ Netflix's library shows a clear preference for cinematic content. Our analysis o
 
 | Type Distribution (Count) | Percentage Breakdown |
 | :---: | :---: |
-| ![Content Type Distribution (Movies vs. TV Shows)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph.png) | ![Percentage of Movies and TV Shows in Netflix Library](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Pie-Chart.png) |
+| ![Content Type Distribution (Movies vs. TV Shows)](Netflix-data-analysis/Bar-Graph2.png) | ![Percentage of Movies and TV Shows in Netflix Library](Netflix-data-analysis/Barh-Graph.png) |
 | *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
@@ -31,7 +31,7 @@ While Netflix content is global, production is concentrated in key markets.
     2.  **India:** A major contributor, reflecting investment in regional cinema.
     3.  **United Kingdom:** The third-largest producer of international content.
 
-![Top Producing Countries on Netflix (USA, India, UK)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph.png)
+![Top Producing Countries on Netflix (USA, India, UK)](Netflix-data-analysis/Barh-Graph2.png)
 *Technologies Used: Matplotlib*
 
 ---
@@ -41,7 +41,7 @@ The platform experienced significant growth in content additions, particularly f
 
 | Addition Trends Over Time | Release Year Distribution |
 | :---: | :---: |
-| ![Distribution of TV Show Duration](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Histogram.png) | ![Distribution of Content Release Years](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Histogram.png) |
+| ![Distribution of TV Show Duration](Netflix-data-analysis/Histogram.png) | ![Distribution of Content Release Years](Netflix-data-analysis/Pie-Chart.png) |
 | *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
@@ -51,7 +51,7 @@ The rating distribution indicates a focus on mature audiences.
 
 *   **Observation:** **TV-MA** (Mature Audiences) and **TV-14** are the most frequent ratings.
 
-![Age Rating Distribution of Content on Netflix (TV-MA and TV-14 are most common)](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Bar-Graph2.png)
+![Age Rating Distribution of Content on Netflix (TV-MA and TV-14 are most common)](Netflix-data-analysis/Bar-Graph2.png)
 *Technologies Used: Matplotlib*
 
 ---
@@ -61,7 +61,7 @@ Identifying the most prolific contributors to the Netflix catalog.
 
 | Top 10 Actors | Top 10 Directors |
 | :---: | :---: |
-| ![Top 10 Most Appearing Actors in Netflix Content](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Barh-Graph2.png) | ![Top 10 Most Prolific Directors on Netflix](Netflix-Data-Cleaning-Analysis/Netflix-data-analysis/Barh-Graph.png) |
+| ![Top 10 Most Appearing Actors in Netflix Content](Netflix-data-analysis/Barh-Graph2.png) | ![Top 10 Most Prolific Directors on Netflix](Netflix-data-analysis/Barh-Graph.png) |
 | *Technologies Used: Matplotlib* | *Technologies Used: Matplotlib* |
 
 ---
